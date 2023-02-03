@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
-import { api } from '../services/api';
 
 import { MovieCard } from './MovieCard';
+
+import { api } from '../services/api';
+
+import '../styles/content.scss';
 
 interface MovieProps {
   imdbID: string;
